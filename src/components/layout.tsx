@@ -17,7 +17,7 @@ type LayoutProps = {
 }
 
 const Container = tw.div`flex flex-1 flex-col h-screen`
-const Main = tw.div`flex flex-1 flex-col items-center`
+const Main = tw.main`flex flex-1 flex-col items-center`
 const Footer = tw.footer`flex justify-center w-full mt-2 py-2 shadow-inner`
 
 const Layout: React.FC<LayoutProps> = ({ children }) => {
@@ -35,13 +35,13 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
     <Container>
       <Header siteTitle={data.site.siteMetadata?.title || `Title`} />
       <Main>
-        <main style={{ flex: 1 }}>{children}</main>
-        <Footer>
-          © {new Date().getFullYear()}, Built with
-          {` `}
-          <a href="https://www.gatsbyjs.com">Gatsby</a>
-        </Footer>
+        {children}
       </Main>
+      <Footer>
+        © {new Date().getFullYear()}, Built with
+        {` `}
+        <a href="https://www.gatsbyjs.com">Gatsby</a>
+      </Footer>
     </Container>
   )
 }
