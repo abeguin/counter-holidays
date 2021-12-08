@@ -1,14 +1,14 @@
 import * as React from "react"
-import * as css from '@emotion/styled'
 
 import Layout from "../components/layout"
 import Seo from "../components/seo"
-import Counter from "../components/counter"
+import Counter from "../counter/counter"
 
 const IndexPage = () => (
   <Layout>
     <Seo title="Home" />
-    <Counter />
+    <Counter refDate={new Date(2021, 11, 13, 15, 0, 0, 0)} />
+    <Counter refDate={new Date(2022, 3, 1, 12, 0, 0, 0)} />
   </Layout>
 )
 
