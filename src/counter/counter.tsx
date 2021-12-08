@@ -37,13 +37,12 @@ const Counter: React.FC<CounterProps> = ({ refDate }) => {
     return () => clearInterval(interval)
   }, [])
 
-
   return (
     <Container>
-      <Digit>{days}</Digit>
-      <Digit>{hours}</Digit>
-      <Digit>{minutes}</Digit>
-      <Digit>{seconds}</Digit>
+      <Digit label={"Jours"}>{days}</Digit>
+      <Digit label={"Heures"}>{hours}</Digit>
+      <Digit label={"Minutes"}>{minutes}</Digit>
+      <Digit label={"Secondes"}>{seconds}</Digit>
     </Container>
   )
 }
