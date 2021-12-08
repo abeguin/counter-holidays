@@ -32,13 +32,11 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
 
   return (
     <Container>
-      <Header siteTitle={data.site.siteMetadata?.title || `Title`} />
       <Main>
         {children}
       </Main>
       <Footer>
-        © {new Date().getFullYear()}, Built with
-        {` `}
+        © {new Date().getFullYear()}, Built with&nbsp;
         <a href="https://www.gatsbyjs.com">Gatsby</a>
       </Footer>
     </Container>
