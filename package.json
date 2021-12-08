@@ -51,7 +51,7 @@
     "serve": "gatsby serve",
     "clean": "gatsby clean",
     "test": "jest",
-    "deploy": "gatsby build --prefix-paths && gh-pages -d public"
+    "deploy": "gatsby build --prefix-paths && rm -rf node_modules/.cache/gh-pages && gh-pages -d public"
   },
   "repository": {
     "type": "git",
