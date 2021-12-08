@@ -8,7 +8,7 @@ type CounterProps = {
   refDate: Date
 }
 
-const Container = tw.div`flex mx-8`
+const Container = tw.div`flex mx-2 lg:mx-8`
 
 const Counter: React.FC<CounterProps> = ({ refDate }) => {
   //const [ refDate, setRefDate ] = useState(new Date(2021, 11, 13, 15, 0, 0, 0))
