@@ -17,7 +17,7 @@ const Digit: React.FC<DigitProps> = ({
 }: DigitProps) => (
   <Container>
     <Label>{label}</Label>
-    <StyledDigit>
+    <StyledDigit className={'digit'}>
       {children}
     </StyledDigit>
   </Container>
