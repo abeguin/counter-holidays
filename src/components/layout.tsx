@@ -8,7 +8,6 @@
 import * as React from "react"
 import { graphql, useStaticQuery } from "gatsby"
 
-import Header from "./header"
 import tw from "twin.macro"
 
 type LayoutProps = {
