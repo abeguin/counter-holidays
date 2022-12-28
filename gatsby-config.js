@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: `Count down`,
-    description: `Count down for the house !`,
+    description: `Count down for the holidays !`,
     author: `@abeguin`,
     siteUrl: `https://abeguin.github.io/counter-holidays/`
   },

@@ -1,5 +1,5 @@
 {
-  "name": "counter",
+  "name": "counter-holidays",
   "private": true,
   "description": "A simple counter",
   "version": "0.1.0",
@@ -55,6 +55,6 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://abeguin.github.io/counter/"
+    "url": "https://abeguin.github.io/counter-holidays/"
   }
 }
