@@ -43,5 +43,7 @@ const diffSeconds = (refDate: Date, date: Date): number => {
 export const integerDiffSeconds = (refDate: Date, date: Date): number => Math.trunc(diffSeconds(refDate, date))
 
 
-
+export const getSeconds = (refDate: Date, date: Date): number => {
+  return Math.trunc(msToSeconds(diff(refDate, date)))
+}
 
