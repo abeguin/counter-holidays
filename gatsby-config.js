@@ -3,9 +3,9 @@ module.exports = {
     title: `Count down`,
     description: `Count down for the house !`,
     author: `@abeguin`,
-    siteUrl: `https://abeguin.github.io/counter/`
+    siteUrl: `https://abeguin.github.io/counter-holidays/`
   },
-  pathPrefix: `/counter`,
+  pathPrefix: `/counter-holidays`,
   plugins: [
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-image`,
